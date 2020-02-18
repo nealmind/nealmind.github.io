@@ -1,2 +1,2 @@
-# nealmind.github.io
-personal blog
+个人学习及工作总结。
+
