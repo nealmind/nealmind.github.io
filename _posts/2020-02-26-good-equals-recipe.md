@@ -57,14 +57,11 @@ public class Point {
  *继承了Point
  */
 public class ColorPoint extends Point {
-
     private final Color color;
-
     public ColorPoint(int x, int y, Color color) {
         super(x, y);
         this.color = color;
     }
-
     /**
      * 违反对称性，用Point和ColorPoint实例进行相互调用
      * 可能会出现不同的结果
