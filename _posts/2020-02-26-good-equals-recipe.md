@@ -95,8 +95,6 @@ public class ColorPoint extends Point {
         System.err.println(cp.equals(p));
         System.err.println(p.getClass());
         System.err.println(cp.getClass());
-
-
     }
 }
 ```
