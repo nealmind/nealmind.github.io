@@ -30,6 +30,15 @@ description_footer:
 twitter_username: 
 github_username:
 
+# GitTalk
+gitalk:
+  enable: true
+  clientID: a5fd9f069280008d197d
+  clientSecret: 46d3a70fd16c3ab5c3078a869151e4f2d6b3e30b
+  repo: blog-comments
+  owner: nealmind
+  admin: nealmind
+  distractionFreeMode: true
 
 # Build settings
 markdown: kramdown

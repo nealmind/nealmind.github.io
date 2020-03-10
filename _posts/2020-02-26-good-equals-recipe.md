@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 实现高质量equals的诀窍
-tags: java基础
+tags: Java基础
 author: neal
 
 ---
