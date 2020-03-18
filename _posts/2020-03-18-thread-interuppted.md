@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 线程中断
-tags: java基础
+tags: Java基础
 author: neal
 
 ---
