@@ -112,3 +112,10 @@ public class CooperatingDeadlock {
 ```
 解决办法是将同步方法改为同步代码块，避免在持有锁时调用外部方法
 
+---
+引用：《Java并发编程实战》
+
+
+
+
+
