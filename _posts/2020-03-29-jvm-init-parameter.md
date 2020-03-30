@@ -21,3 +21,4 @@ author: neal
 
 `-XX:PretenureSizeThreshold:` 大对象阈值，超过这个阈值的直接分配到老年代，默认为0
 
+ParNew + CMS收集器
