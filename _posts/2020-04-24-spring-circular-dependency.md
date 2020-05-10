@@ -26,4 +26,5 @@ author: neal
 三级缓存中，从而解决循环依赖
 
 * 实现InitializingBean 接口，在afterPropertiesSet方法中从容器中获取bean并添加依赖关系
-* 
+
+  
