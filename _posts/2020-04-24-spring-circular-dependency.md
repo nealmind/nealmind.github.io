@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 标题
-tags: 标签
+title: Spring循环依赖
+tags: Spring
 author: neal
 
 ---
@@ -19,7 +19,7 @@ author: neal
 
 ### 构造器依赖
 
-* 重新设计依赖关系，避免构造器循环依赖
+* **重新设计依赖关系，避免构造器循环依赖**
 * 通过使用@Lazy注解进行懒加载
 * 使用@PostConstruct注解，在构造函数被调用后添加依赖关系，缓存到
 
