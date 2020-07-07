@@ -11,27 +11,14 @@ author: neal
 
 
 
-1. 查找所要替换的文件目录：
-
 ```shell
-# jar -tvf xxx.jar |grep DateUtil.class
-##返回class路径
-BOOT-INF/classes/cn/xxx/utils/DateUtil.class
+# 1. 查找class文件位置
+jar -tvf xxx.jar | grep xxx.class
+# 2. 单独解压指定class文件
+jar -xvf xxx.jar BOOT-INF/classes/xxx/xxx.class
+# 3. 将要替换的class文件打包进jar
+jar -uvf xxx.jar BOOT-INF/classes/xxx/xxx.class
 ```
-
-2. 将查找到的class文件单独解压
-
-```shell
-# jar -xvf xxx.jar BOOT-INF/classes/cn/xxx/utils/DateUtil.class
-```
-
-3. 上传替换的class文件，之后重新打包进jar
-
-```shell
-# jar -uvf xxx.jar BOOT-INF/classes/cn/xxx/utils/DateUtil.class
-```
-
-
 
 
 
