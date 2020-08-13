@@ -15,6 +15,14 @@ author: neal
 * **存数据:** `ZADD [key] [member] [score]`
 * **查询分数:** `ZSCORE [key] [member]` 
 
+
+
+
+
+
+
+
+
 使用springboot的StringRedisTemplate实现；
 由于score是double，返回时由于时间戳过长会转成 科学计数法，需要用`BigDecimal`转化一下；
 因为业务上存在更新延时任务的情况，需要在更新score时进行判断，当前值小于原值时才进行更新，
