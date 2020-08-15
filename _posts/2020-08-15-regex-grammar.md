@@ -25,3 +25,5 @@ dss
 
 
 [学习及测试地址](https://regexr.com/)
+
+[正则表达式手册](https://tool.oschina.net/uploads/apidocs/jquery/regexp.html)
