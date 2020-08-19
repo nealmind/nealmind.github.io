@@ -7,8 +7,6 @@ author: neal
 ---
 * content
 {:toc}
-s
-
 ## ZooKeeper下载
 
 官网下载地址：http://zookeeper.apache.org/releases.html#download
