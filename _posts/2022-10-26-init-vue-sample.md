@@ -1,13 +1,13 @@
 ---
 layout: post
-title: 标题
+title: 初始化vue
 tags: 标签
 author: neal
 
 ---
 * content
 {:toc}
-# 2022-10-26-init-vue-sample
+# vue学习笔记一
 
 
 
