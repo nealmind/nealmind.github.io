@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 初始化vue
-tags: 标签
+title: vue学习笔记一
+tags: vue
 author: neal
 
 ---
